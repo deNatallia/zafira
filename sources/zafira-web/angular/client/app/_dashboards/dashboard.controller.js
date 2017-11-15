@@ -318,7 +318,7 @@
         $scope.showWidgetDialog = function (event, widget, isNew, dashboard) {
             $mdDialog.show({
                 controller: WidgetController,
-                templateUrl: 'app/_dashboards/widget_modal.html',
+                templateUrl: 'app/_dashboards/widget-wizard.html',
                 parent: angular.element(document.body),
                 targetEvent: event,
                 clickOutsideToClose: true,

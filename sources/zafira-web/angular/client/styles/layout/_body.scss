@@ -442,3 +442,12 @@ div.switch-view div.card.bg-white {
     from {top: -1000px}
     to {top: 0}
 }
+
+div.ui-wizard-content {
+    background-color: white !important;
+}
+
+.ui-angular-wizard .steps h2,
+.ui-angular-wizard .ui-wizard-actions{
+    border: none !important;
+}

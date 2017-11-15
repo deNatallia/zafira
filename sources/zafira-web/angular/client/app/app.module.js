@@ -27,6 +27,7 @@
         ,'chieffancypants.loadingBar'
         ,'textAngular'
         ,'gridstack-angular'
+        ,'mgo-angular-wizard'
     ])
     .config(['$httpProvider', function($httpProvider) {
         $httpProvider.defaults.useXDomain = true;
